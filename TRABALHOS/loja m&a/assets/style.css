@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+ *{
+    margin:  0px;
+    padding: 0;
+ }  
+
+ .conteiner{
+    justify-content:  space-around;
+    display: flex;
+    background-color: rgb(21, 21, 94);
+    align-items: center;
+    height: 100px;
+    color: aliceblue;
+    text-transform: uppercase;
+ }
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+color: black;
+}
+.menu li a :active {
+    color: crimson;
+}
+
+#moda{
+    text-decoration: none;
+     color: aliceblue;
+     text-transform: uppercase;
+ }
+
+.video1{
+    background-repeat: no-repeat;
+}
+.meio {
+    margin:  0px;
+    padding: 0px;
+}
+h1 {
+    margin:  20px;
+}
+div.fim {
+    align-items: center;
+    flex-direction: column;
+    justify-content:  space-around;
+    display: flex;
+    background-color: rgb(21, 21, 94);
+    margin: 20px
+}
+div.fim p {
+    height: 40px;
+    background-color: rgb(21, 21, 94);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#confecções {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.local {
+    margin: 40px;
+}
+#cmb {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#me {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#ass {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#brin {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    }
+ul {
+            list-style: none;
+            padding: 0;
+            overflow: hidden;
+            transition: all .5s;
+}
+
+button:focus ~ .conteiner {
+height: 260px;
+}
+#h1p:hover,
+li:hover,
+button:hover {
+cursor: pointer;
+opacity: 0.8;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+    }
+    .conteiner {
+        height: 240px;
+    }
+    picture  {
+        width: 700px;
+    }
+}
+    
+
+   
+ 
+
+
+
